@@ -1,0 +1,13 @@
+﻿# 排除非发布文件（发布目录只应包含 index.html）
+*.jpg
+*.jpeg
+*.png
+*.docx
+*.pdf
+*.zip
+_shots/
+作品/
+安装包路径/
+claudedesignskills/
+Lucky/
+APP/
