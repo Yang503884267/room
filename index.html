@@ -85,11 +85,12 @@ ul{list-style:none}
 
 /* ===== 顶栏（对称居中）===== */
 .topbar{
-  position:sticky;top:0;z-index:50;
+  position:fixed;top:0;left:0;right:0;z-index:50;
   background:rgba(242,232,206,.94);
   backdrop-filter:blur(8px);
   border-bottom:1px solid var(--line);
 }
+body{padding-top:88px}
 .topbar-inner{max-width:1080px;margin:0 auto;padding:10px 20px 8px;text-align:center}
 .brand{display:inline-flex;align-items:center;gap:10px}
 .brand .nm{font-family:var(--serif);font-weight:900;font-size:19px;letter-spacing:2px}
@@ -431,6 +432,7 @@ footer .fin .l,footer .fin .r{width:60px;height:1px;background:var(--khaki)}
   .tl-time{font-size:15px;padding-right:8px;align-items:center}
   .works-grid{grid-template-columns:repeat(2,1fr)}
   .topbar-inner{padding:8px 12px}
+  body{padding-top:140px}
   .brand .nm{font-size:17px}
   .topnav{gap:6px 6px}
   .topnav a{min-height:44px;padding:9px 13px;font-size:12px}
@@ -444,7 +446,7 @@ footer .fin .l,footer .fin .r{width:60px;height:1px;background:var(--khaki)}
   .toc-list li{font-size:14px}
   .crop{display:none}
   main{padding-bottom:10px}
-  section{margin-bottom:44px;scroll-margin-top:90px}
+  section{margin-bottom:44px;scroll-margin-top:160px}
   .hero-topline .l,.hero-topline .r{width:34px}
 }
 @media (max-width:420px){
